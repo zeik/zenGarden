@@ -1,0 +1,9 @@
+[package]
+name = "zenGarden"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+serialport = "4.0"
+rand = "0.8"  # Add the rand crate for generating random numbers
+ctrlc = "3.1"
